@@ -1,7 +1,7 @@
-# Cellular Automata within a single register! 
+# Cellular Automata within single register! 
 
 irmovq seed, %rax
-mrmovq 0(%rax), %rax  # rax = latest iteration
+mrmovq 0(%rax), %rax    # rax = latest iteration
 irmovq rule, %r8
 mrmovq 0x0(%r8), %r8    # r8 = rule
 

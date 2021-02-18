@@ -1,4 +1,4 @@
-# Uh oh! Somebody let at runaway train onto the stack! 
+# Uh oh! Somebody let a runaway train onto the stack! 
 irmovq 0x2000, %rsp
 irmovq 32, %rbx
 irmovq 0x1FE0, %rax
@@ -13,6 +13,6 @@ pushq %r11
 pushq %r12
 jmp 0x1FE0
 
-# Just here so we can look at the stack
+# Just here so we can look at the stack in the simulator
 .pos 0x2000
 
